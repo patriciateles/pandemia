@@ -13,7 +13,8 @@ var cima = false;
 var baixo = false;
  
 function setup() {
-  createCanvas (720, 720);
+  //createCanvas (720, 720);
+  createCanvas (windowWidth, windowHeight);
   background(0);
   amarillo = color (255, 255,0);
   rosa = color (255, 0, 255);
