@@ -3,7 +3,7 @@ function preload() {
   f = loadFont('SecularOne-Regular.ttf');
 }
 
-var x=250;
+var x=500;
 var y=250;
 var xspeed = 0.5;
 var yspeed = -0.5;
