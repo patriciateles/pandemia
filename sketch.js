@@ -25,7 +25,7 @@ function setup() {
 function draw() {
 //background(0);
 //textFont(f);
-  textSize (width/25);
+  textSize (width/35);
   text ("pandemia", x, y);
   //stroke(20);
   //strokeWeight (3);
