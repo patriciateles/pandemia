@@ -24,8 +24,7 @@ function setup() {
 
 function draw() {
 //background(0);
-  
-  textFont(f);
+//textFont(f);
   textSize (width/25);
   text ("pandemia", x, y);
   //stroke(20);
@@ -38,9 +37,9 @@ function draw() {
   x=x+xspeed;
   y=y+yspeed;
   
-//______________________________DIREITA______ROSA_________________________ 
+//______________________________DIREITA-ROSA_________________________ 
 //if (x > width - 59 || x < 0){
-if (x > width - 134){
+if (x > width - 238){
   xspeed = xspeed * -1;
   
   direita = true;
@@ -64,7 +63,7 @@ if (x < 0){
 else if (esquerda == true){
   fill (ciano) 
 }
-//_______________________INFERIOR________VERDE_____________________________
+//_______________________INFERIOR-VERDE_____________________________
 //if (y > height || y < 6){ //menor que 6 pra não sumir a palavra do canvas
   if (y > height){
   yspeed = yspeed *-1;
@@ -78,8 +77,8 @@ else if (esquerda == true){
  else if (cima == true){
    fill (verde);
  }
- //___________________SUPERIOR__________AMARILLO____________________________
-  if (y < 0 + 16) {
+ //___________________SUPERIOR-AMARILLO____________________________
+  if (y < 0 + 25) {
   yspeed = yspeed *-1;
     
   baixo = true;  
